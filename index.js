@@ -21,7 +21,7 @@ app.post('/summarize', (req, res) => {
        res.send(response); // Send the summary text as a response to the client
     })
     .catch(error => {
-      console.log(error.message);
+      console.log("hii");
     });
 });
 // Start the server
