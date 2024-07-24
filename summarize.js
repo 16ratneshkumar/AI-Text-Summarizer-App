@@ -29,7 +29,7 @@ async function summarizeText(text) {
     return response.data[0].summary_text;
   }
   catch (error) {
-    console.log("error");
+    console.log(error);
   }
 
 }
